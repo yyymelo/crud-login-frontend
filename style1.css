@@ -1,0 +1,103 @@
+/* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #333;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid #666;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+}
+
+ul li{
+    margin-right: 15px;
+}
+
+ul li a {
+    color: white;
+}
+
+imagem {
+    display: flex;
+    justify-content: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 25px;
+    font: bold;
+}
+
+imagem ul {
+    display: flex;
+    list-style: none;
+}
+
+imagem ul li {
+    border: 5px solid blue;
+    position: relative;
+    display: block;
+    padding: 25px 10px;
+}
+
+.border{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border: 2px solid blue;
+}
+
+#divBusca {
+    position: right;
+    background-color: #e0eeee;
+    border: solid 2px #000000;
+    border-radius: 10px;
+    width: 300px;
+    height: 32px;
+    margin-top: 15px;
+    margin-left: 590px;
+}
+
+#txtBusca {
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-style: italic;
+    font: bold;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 198px;
+}
+
+#btnBusca {
+    border: none;
+    float: left;
+    height: 32px;
+    border-radius: 0 7px 7px 0;
+    width: 70px;
+    font-weight: bold;
+    background: #7252ff;
+    font: bold;
+}
+
+#divBusca img {
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+}
